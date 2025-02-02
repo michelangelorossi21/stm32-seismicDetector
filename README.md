@@ -15,12 +15,20 @@ This project is based on the STM32 microcontroller, designed to detect seismic a
 - Seismic event notification 📲
 - Seismic vibrations visualization;
 - Power-efficient design using low-power modes on STM32 ⚡💡
-  
+
 ## How to Run the Project:
-- Connect the STM32 board to the accelerometer sensor 🔌.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/michelangelorossi21/stm32-seismicDetector.git
+   
+2. Connect the STM32 board to the accelerometer sensor 🔌.
 - Upload the firmware to the STM32 using STM32CubeIDE or similar tools 🛠️.
 - Power the system and the device will continuously monitor vibrations 🌍.
 - Seismic event detected: The system will process the data and, in case of a significant vibration, a signal or notification will be triggered 📡.
+
+## Images:
+![Pin configuration](https://github.com/michelangelorossi21/stm32-seismicDetector/blob/main/Pin%20configuration.png)
+![Serial Plotter](https://github.com/michelangelorossi21/stm32-seismicDetector/blob/main/Serial%20Plotter.png)
 
 ## Lessons Learned:
 This project allowed me to deepen my knowledge of embedded systems, data acquisition, and vibration analysis. It also involved working with real-time data processing on microcontrollers, providing me with a solid foundation in both hardware and software development. 💡🔧
