@@ -27,7 +27,12 @@ This project is based on the STM32 microcontroller, designed to detect seismic a
 - Seismic event detected: The system will process the data and, in case of a significant vibration, a signal or notification will be triggered 📡.
 
 ## Images:
+Pin configuration:
+
 ![Pin configuration](https://github.com/michelangelorossi21/stm32-seismicDetector/blob/main/Pin%20configuration.png)
+
+Serial Plotter visualization:
+
 ![Serial Plotter](https://github.com/michelangelorossi21/stm32-seismicDetector/blob/main/Serial%20Plotter.png)
 
 ## Lessons Learned:
